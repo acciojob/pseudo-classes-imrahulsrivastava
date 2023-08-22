@@ -1,28 +1,24 @@
-html:root {
+:root {
   background-color: rgb(135, 206, 235);
 }
 
 p:first-child {
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
+  color: white;
+  background-color: black;
 }
 
 p:nth-child(2) {
-  color: rgb(0, 0, 0);
+  color: inherit;
 }
 
 p:last-child {
-  color: rgb(255, 0, 0);
+  color: red;
 }
 
 li {
-  background-color: rgb(128, 128, 128);
+  background-color: gray;
   width: 50%;
   padding: 10px;
-}
-
-li:nth-child(odd) {
-  background-color: rgb(255, 255, 255);
 }
 
 li:first-child,
@@ -30,6 +26,10 @@ li:last-child {
   font-size: 22px;
 }
 
+li:nth-child(odd) {
+  background-color: white;
+}
+
 li:nth-last-child(3) {
-  background-color: rgb(255, 192, 203);
+  background-color: pink;
 }
